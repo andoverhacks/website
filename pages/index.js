@@ -17,14 +17,14 @@ export default function Home() {
         <h2 className={styles.subtitle}>Read <Link href="/posts/first-post"><a>this page!</a></Link></h2>
       </main>
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+        <a href="https://github.com/andoverhacks" className={styles.card}>
+            <h3>Github &rarr;</h3>
+            <p>Find and join our github organization here!</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://workshops.hackclub.com" className={styles.card}>
             <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p>Learn the basics of coding at the workshops here!</p>
           </a>
 
           <a
@@ -48,14 +48,12 @@ export default function Home() {
 
 
       <footer className={styles.footer}>
-        <a
+        {/* <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        > */}
+          Powered by <a href="https://andover.edu">&nbsp;Andover&nbsp;</a> Hack Club, a 501(c)(3) Non-Profit EIN: 81-2908499.
       </footer>
     </div>
   )
